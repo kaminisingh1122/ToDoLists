@@ -1,13 +1,124 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  padding:0;
+  margin:0;
+  font-family:'Courier New', Courier, monospace;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main_div{
+  width:100;
+  height:100vh;
+  background: #6983aa;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  
+
+}
+.center_div{
+  width:25%;
+  height:70vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px -5px rgba(0,0,0,0.5);
+  border-radius:15px;
+  display: block;
+  flex-direction: column;
+  margin: 30px 30px;
+  overflow:scroll;
+  
+  
+  
+
+}
+.butt{
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 13px;
+  padding:  13px,30px;
+  border-radius: 10px;
+  
+}
+#btn1{
+  font-size: 12px;
+}
+#btn1:hover{
+  background-color: rgba(255, 0, 0, 0.493);
+
+}
+
+h1{
+ 
+  color:white;
+  background: transparent;
+  font-size: 50px;
+  background-color: #8566aa;
+  padding:6px 0 2px 0;
+  margin-bottom: 10px;
+  width:100%;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+input{
+  
+  border-bottom:2px solid #8566aa;
+  outline: none; 
+  border:none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 13px 93px;
+  outline: none;
+  background-color: #e5e8ee; 
+  border-radius: 12px; 
+  
+}
+@media only screen and (min-width:px ) {
+  .icon{
+        width:480px;
+  }
+}
+
+
+ button{
+   min-height: 40px; 
+  
+  border-radius: 50%;
+   width:40px;
+     padding: 0 15px;
+     margin-top:70px;
+      margin-right: 50px;
+  border-color: transparent;
+  background-color: #8566aa;
+  color:#fff;
+   font-size:40px; 
+  border:none;
+  outline:none;
+  
+ 
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3); 
+} 
+button:hover{
+  background-color: #20bf6b;
+
+} 
+li button{
+  border-radius: 20px;
+  font-size: 12px;
+}
+ li{
+  
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height:40px;
+  
+  color:#8566aa;
+  text-transform: capitalize;
+} 
+.btn_div{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
 }
